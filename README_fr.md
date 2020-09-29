@@ -1,21 +1,21 @@
-# App exemple pour YunoHost
+# Whoogle pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/REPLACEBYYOURAPP.svg)](https://dash.yunohost.org/appci/app/REPLACEBYYOURAPP) ![](https://ci-apps.yunohost.org/ci/badges/REPLACEBYYOURAPP.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/REPLACEBYYOURAPP.maintain.svg)  
-[![Installer REPLACEBYYOURAPP avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=REPLACEBYYOURAPP)
+[![Niveau d'intégration](https://dash.yunohost.org/integration/whoogle.svg)](https://dash.yunohost.org/appci/app/whoogle) ![](https://ci-apps.yunohost.org/ci/badges/whoogle.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/whoogle.maintain.svg)  
+[![Installer Whoogle avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=whoogle)
 
 *[Read this readme in english.](./README.md)* 
 
-> *Ce package vous permet d'installer REPLACEBYYOURAPP rapidement et simplement sur un serveur YunoHost.  
+> *Ce package vous permet d'installer Whoogle rapidement et simplement sur un serveur YunoHost.  
 Si vous n'avez pas YunoHost, consultez [le guide](https://yunohost.org/#/install) pour apprendre comment l'installer.*
 
 ## Vue d'ensemble
 Description rapide de cette application.
 
-**Version incluse :** 1.0
+**Version incluse :** 0.2.0
 
 ## Captures d'écran
 
-![](Lien vers une capture d'écran de cette application.)
+![](https://raw.githubusercontent.com/benbusby/whoogle-search/develop/app/static/img/docs/screenshot_desktop.jpg)
 
 ## Démo
 
@@ -39,8 +39,8 @@ Comment configurer cette application : via le panneau d'administration, un fichi
 
 #### Architectures supportées
 
-* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/REPLACEBYYOURAPP%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/REPLACEBYYOURAPP/)
-* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/REPLACEBYYOURAPP%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/REPLACEBYYOURAPP/)
+* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/whoogle%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/whoogle/)
+* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/whoogle%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/whoogle/)
 
 ## Limitations
 
@@ -50,27 +50,22 @@ Comment configurer cette application : via le panneau d'administration, un fichi
 
 * Autres informations que vous souhaitez ajouter sur cette application.
 
-**Plus d'informations sur la page de documentation :**  
-https://yunohost.org/packaging_apps
-
 ## Liens
 
- * Signaler un bug : https://github.com/YunoHost-Apps/REPLACEBYYOURAPP_ynh/issues
- * Site de l'application : Lien vers le site officiel de cette application.
- * Dépôt de l'application principale : Lien vers le dépôt officiel de l'application principale.
+ * Signaler un bug : https://github.com/YunoHost-Apps/whoogle_ynh/issues
+ * Site de l'application : https://benbusby.com/projects/whoogle-search/
+ * Dépôt de l'application principale : https://github.com/benbusby/whoogle-search
  * Site web YunoHost : https://yunohost.org/
 
 ---
 
-Informations pour les développeurs
-----------------
+## Informations pour les développeurs
 
-**Seulement si vous voulez utiliser une branche de test pour le codage, au lieu de fusionner directement dans la banche principale.**
-Merci de faire vos pull request sur la [branche testing](https://github.com/YunoHost-Apps/REPLACEBYYOURAPP_ynh/tree/testing).
+Merci de faire vos pull request sur la [branche testing](https://github.com/YunoHost-Apps/whoogle_ynh/tree/testing).
 
 Pour essayer la branche testing, procédez comme suit.
 ```
-sudo yunohost app install https://github.com/YunoHost-Apps/REPLACEBYYOURAPP_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/whoogle_ynh/tree/testing --debug
 ou
-sudo yunohost app upgrade REPLACEBYYOURAPP -u https://github.com/YunoHost-Apps/REPLACEBYYOURAPP_ynh/tree/testing --debug
+sudo yunohost app upgrade whoogle -u https://github.com/YunoHost-Apps/whoogle_ynh/tree/testing --debug
 ```
