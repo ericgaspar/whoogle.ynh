@@ -5,7 +5,7 @@
 #=================================================
 
 # dependencies used by the app
-pkg_dependencies="libcurl4-openssl-dev libssl-dev python3-venv"
+pkg_dependencies="libcurl4-openssl-dev libssl-dev python3-venv python3-dev python3-pip"
 
 #=================================================
 # PERSONAL HELPERS
