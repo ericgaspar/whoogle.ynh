@@ -102,6 +102,7 @@ ynh_system_user_create --username=$app
 pushd $final_path
 	python3 -m venv venv
 	source venv/bin/activate
+	pip install wheel
 	pip install -r requirements.txt
 	./run
 popd
