@@ -3,7 +3,7 @@ Description=Whoogle
 
 [Service]
 Type=simple
-User=root
+User=__APP__
 WorkingDirectory=__FINALPATH__
 ExecStart=__FINALPATH__/venv/bin/python3 -um app --host 127.0.0.1 --port __PORT__
 ExecReload=/bin/kill -HUP $MAINPID

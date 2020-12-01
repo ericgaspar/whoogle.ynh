@@ -80,9 +80,9 @@ ynh_setup_source --dest_dir="$final_path"
 #=================================================
 # NGINX CONFIGURATION
 #=================================================
-ynh_script_progression --message="Configuring nginx web server..." --time --weight=1
+ynh_script_progression --message="Configuring NGINX web server..." --time --weight=1
 
-# Create a dedicated nginx config
+# Create a dedicated NGINXconfig
 ynh_add_nginx_config
 
 #=================================================
@@ -99,13 +99,11 @@ ynh_system_user_create --username=$app
 # ...
 #=================================================
 
-pushd $final_path
-	python3 -m venv venv
-	source venv/bin/activate
-	pip install wheel
-	pip install -r requirements.txt
-	./run
-popd
+python3 -m venv --system-site-packages "$final_path"
+set +u; source $final_path/bin/activate; set -u
+pip3 install -U wheel
+pip3 install --requirement $final_path/requirements.txt
+./run
 
 #=================================================
 # SETUP SYSTEMD
