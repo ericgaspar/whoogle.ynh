@@ -103,7 +103,7 @@ python3 -m venv --system-site-packages "$final_path"
 set +u; source $final_path/bin/activate; set -u
 pip3 install -U wheel
 pip3 install --requirement $final_path/requirements.txt
-./run
+#./run
 
 #=================================================
 # SETUP SYSTEMD
