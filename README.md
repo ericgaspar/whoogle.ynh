@@ -53,7 +53,7 @@ Can the app be used by multiple users?
 
 ## Links
 
- * Report a bug: https://github.com/YunoHost-Apps/REPLACEBYYOURAPP_ynh/issues
+ * Report a bug: https://github.com/YunoHost-Apps/whoogle_ynh/issues
  * App website: https://benbusby.com/projects/whoogle-search/
  * Upstream app repository: https://github.com/benbusby/whoogle-search
  * YunoHost website: https://yunohost.org/
