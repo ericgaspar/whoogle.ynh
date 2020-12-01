@@ -12,7 +12,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 Whoogle is intended to only ever be deployed to private instances by individuals of any background, with as little effort as possible. Prior knowledge of/experience with the command line or deploying applications is not necessary to deploy Whoogle, which isn't the case with Searx. As a result, Whoogle is missing some features of Searx in order to be as easy to deploy as possible.
 Whoogle also only uses Google search results, not Bing/Quant/etc, and uses the existing Google search UI to make the transition away from Google search as unnoticeable as possible.
 
-**Shipped version:** 0.2.0
+**Shipped version:** 0.2.1
 
 ## Screenshots
 

@@ -6,7 +6,7 @@
         "en": "Self-hosted, ad-free, privacy-respecting Google metasearch engine",
         "fr": "Moteur de recherche Google auto-hébergé, sans publicité et respectueux de la confidentialité"
     },
-    "version": "0.2.0~ynh1",
+    "version": "0.2.1~ynh1",
     "url": "https://benbusby.com/projects/whoogle-search/",
     "license": "MIT",
     "maintainer": {

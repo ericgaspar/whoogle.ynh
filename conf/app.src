@@ -1,5 +1,5 @@
-SOURCE_URL=https://github.com/benbusby/whoogle-search/archive/0.2.0.tar.gz
-SOURCE_SUM=b59a4deb62ca5d2b3e914e420953ba7b6081a8d5a6f57f8c643c7351c952ecf2
+SOURCE_URL=https://github.com/benbusby/whoogle-search/archive/v0.2.1.tar.gz
+SOURCE_SUM=100f07d66773a8f36126cfd9d62646c4df4daf010110d53faaf7b1424c2b8110
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true

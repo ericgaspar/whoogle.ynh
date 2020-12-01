@@ -11,7 +11,7 @@ Si vous n'avez pas YunoHost, consultez [le guide](https://yunohost.org/#/install
 ## Vue d'ensemble
 Description rapide de cette application.
 
-**Version incluse :** 0.2.0
+**Version incluse :** 0.2.1
 
 ## Captures d'écran
 
